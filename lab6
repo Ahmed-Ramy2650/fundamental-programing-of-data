@@ -1,0 +1,57 @@
+a) The value of pi = 3.14		
+-----------------------------------------------------
+b)	pi = 22/7 = 3.142
+-----------------------------------------------------
+c) answer is  (Invalid syntax)
+the correct code is -->
+
+x = 20/5; print('20/5 = %d  = %4.2f' % (x, x))
+
+the output of correct code is -->
+ 
+		20/5 = 4 = 4.00
+
+-----------------------------------------------------
+question (2)complete
+answer is -->
+
+for i in range(998, 1002):
+    print(i,end='\n')
+-----------------------------------------------------
+The output of the program will be:
+
+3.863   3.86   3.9
+4       3
+
+the difference --> %.0f format number as float without any decimal , rounding to nearest integer
+		-> %d  format number as integer without decimal , not rounding to nearest integer.
+-------------------------------------------------------
+4)--> # the print command in one statment is 
+print('My name is Ahmed\nFriends call me "Mido :)"\nI don\'t like apples\\bananas\\peaches')
+------------------------------------------------------
+5)--> the output is 
+
+Hello. My name is ahmed. I am from Cairo
+['Hello.', 'My', 'name', 'is', 'ahmed.', 'I', 'am', 'from', 'Cairo']
+['Hello. My name is ahmed. I am from Cairo']
+['Hello', ' My name is ahmed', ' I am from Cairo']
+['Hello', 'My name is ahmed', 'I am from Cairo']
+
+-----------------------------------------------------
+x = 'yes'
+lengths = []
+widths = []
+areas = []
+
+while x =='yes':
+    length = float(input(f"Enter the length of rectangle: "))
+    width = float(input(f"Enter the width of rectangle : "))
+    lengths.append(length)
+    widths.append(width)
+    area = length * width
+    areas.append(area)
+    x = input('Do u need to add another area of rectangle(yes/no): ')
+
+print("Num \t Length \t Width \t Area (approx.)")
+for i in range(len(areas)):
+    print(f"{i + 1} \t {lengths[i]} \t {widths[i]} \t {int(areas[i])}")
