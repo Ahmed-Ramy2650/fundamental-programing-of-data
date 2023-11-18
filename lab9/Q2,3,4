@@ -16,3 +16,11 @@ print(sumVal(4))
 3
 
 #this function finding the greatest common divisor
+#------------------------------------------
+Q4
+#the output of function is items of list in different line like that
+#output is -->
+2
+3
+4
+10
