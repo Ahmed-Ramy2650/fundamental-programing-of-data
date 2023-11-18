@@ -7,3 +7,12 @@ def sumVal(N):
     return N + sumVal(N - 1)
 
 print(sumVal(4))
+#-----------------------------------------
+#Q3 
+
+
+#the output is -->
+12
+3
+
+#this function finding the greatest common divisor
