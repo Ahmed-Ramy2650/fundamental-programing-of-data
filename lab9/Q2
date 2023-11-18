@@ -1,0 +1,9 @@
+#this function is called it self ifinit numbers of times
+#the fix code is -->
+
+def sumVal(N):
+    if N <= 0:
+        return 0
+    return N + sumVal(N - 1)
+
+print(sumVal(4))
