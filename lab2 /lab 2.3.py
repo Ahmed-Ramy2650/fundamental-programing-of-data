@@ -14,6 +14,8 @@ minutes = arrivalminutes - departureminutes
 if minutes < 0:
     hours -= 1
     minutes += 60
+if hours < 0:
+    hours += 12
 
 print("The trip time",hours ,"hr")
 print("The trip time",minutes ,"min")
